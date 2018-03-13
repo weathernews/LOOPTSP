@@ -1,8 +1,12 @@
 from looptsp_env import LoopTSPEnvrionment, CostMatrix, Voyage
 
 if __name__ == "__main__":
-    tsp_env = LoopTSPEnvrionment('data/sample/cost.csv')
-    voyage = Voyage(tsp_env,'TOKYO')
+    cost_file = sys.argv[1]
+    start_port = sys.argv[2]
+    plan_file = sys.argv[3]
+    tsp_env = LoopTSPEnvrionment(cost_file)
+    voyage = Voyage(tsp_env,start_port)
+
     while True:
         print('elpased date: {}'.format(voyage.elpased_time))
         print('Candidate ports')
