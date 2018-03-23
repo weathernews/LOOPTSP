@@ -41,3 +41,31 @@ final integrating dates (Elpased dates) is 100 and the detail is the following.
 | LONG_BEACH         | 68            | SEATTLE      | 4 (4 + 68%4)     |
 | SEATTLE            | 72            | TOKYO        | 28 (22 + 72%22)  |
 | TOKYO              | 100           |              |                  |
+
+# Scripts
+
+## CUI 
+This repository has cui based tiral environment.
+The enviroment starts by following command. (python3)
+
+```
+PYTHONPATH=./looptsp/ python looptsp/looptsp_cui.py data/sample/cost.csv "TOKYO"
+````
+
+## Loading Voyage Plan
+This repository has a script, which reads a voyage plan file.
+The script executes by folloing command.
+
+```
+PYTHONPATH=./looptsp/ python looptsp/looptsp_file_input.py data/sample/cost.csv 'TOKYO' data/sample/voyage_plan.txt
+```
+
+And, the script outputs.
+
+```
+Total date is 80
+```
+
+So, the plan is different from the above example and the total dates is also different.
+
+
