@@ -1,9 +1,9 @@
 from looptsp_env import LoopTSPEnvrionment, CostMatrix, Voyage
+import sys
 
 if __name__ == "__main__":
     cost_file = sys.argv[1]
     start_port = sys.argv[2]
-    plan_file = sys.argv[3]
     tsp_env = LoopTSPEnvrionment(cost_file)
     voyage = Voyage(tsp_env,start_port)
 
