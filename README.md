@@ -15,5 +15,11 @@ In this problem, the actual navigation dates (_Actual(Dep, Arr)_) are defined th
 
 Find voyage route whose integrating date is smallest
 
-
-
+|            | TOKYO | OSAKA | NAGOYA | SHANGHAI | LONG_BEACH | SEATTLE |
+|------------|-------|-------|--------|----------|------------|---------|
+| TOKYO      | -     | 4     | 2      | 8        | 24         | 22      |
+| OSAKA      | 4     | -     | 2      | 6        | 26         | 24      |
+| NAGOYA     | 2     | 2     | -      | 8        | 24         | 22      |
+| SHANGHAI   | 8     | 6     | 8      | -        | 28         | 26      |
+| LONG_BEACH | 24    | 26    | 24     | 28       | -          | 4       |
+| SEATTLE    | 22    | 24    | 22     | 26       | 4          | -       |
