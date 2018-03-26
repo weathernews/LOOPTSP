@@ -29,7 +29,7 @@ And, start port is given as "TOKYO."
 | LONG_BEACH | 24    | 26    | 24     | 28       | -          | 4       |
 | SEATTLE    | 22    | 24    | 22     | 26       | 4          | -       |
 
-When a ship touchs ports in order "TOKYO(start) -> OSAKA -> NAGOYA -> SHANGHAI -> LONG_BEACH -> SEATTLE -> TOKYO",
+When a ship touchs ports in order "TOKYO(start) -> OSAKA -> NAGOYA -> SHANGHAI -> LONG_BEACH -> SEATTLE -> TOKYO,"
 final integrating dates (Elpased dates) is 100 and the detail is the following.
 
 | Port               | Elpased dates | Arrival Port | Navigation Dates |
@@ -41,6 +41,26 @@ final integrating dates (Elpased dates) is 100 and the detail is the following.
 | LONG_BEACH         | 68            | SEATTLE      | 4 (4 + 68%4)     |
 | SEATTLE            | 72            | TOKYO        | 28 (22 + 72%22)  |
 | TOKYO              | 100           |              |                  |
+
+# Submissions
+
+## Results of Planning
+Ideal date file for actual setting is "data/cost.csv."
+
+Please, submit voyage plans whose start ports are the follwing and "Elapsed dates" of these plans.
+
+- TOKYO
+- OSAKA
+- SEATTLE
+- HONGKONG
+- THURSDAY_ISLAND
+
+A format example is "data/sample/voyage_plan.txt."
+
+The submission file name of each start port is "'START\_PORT\_NAME'\_voyage\_plan.txt", like "TOKYO\_voyage\_plan.txt."
+
+## Description for Algorithm
+
 
 # Scripts
 
