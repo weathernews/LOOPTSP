@@ -59,6 +59,8 @@ A format example is "data/sample/voyage_plan.txt."
 
 The submission file name of each start port is "'START\_PORT\_NAME'\_voyage\_plan.txt", like "TOKYO\_voyage\_plan.txt."
 
+If you can find optimum solution, you will tackle extra problem, "data/extra\_problem\_cost.csv." (in preparation)
+
 ## Description for Algorithm
 
 
